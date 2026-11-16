@@ -3,6 +3,7 @@ import re
 import json
 import os
 from concurrent.futures import ThreadPoolExecutor
+from bs4 import BeautifulSoup
 
 API_URL = "https://dragonball.fandom.com/es/api.php"
 
@@ -48,10 +49,12 @@ def obtener_contenido(pagina):
     )
 
 
+
 def limpiar_texto(texto):
     if texto is None:
         return None
 
+    # Limpieza de elementos propios de MediaWiki
     for patron, reemplazo in PATRONES_LIMPIEZA:
         texto = re.sub(
             patron,
@@ -60,9 +63,21 @@ def limpiar_texto(texto):
             flags=re.DOTALL | re.IGNORECASE
         )
 
+    # Procesamiento del contenido HTML
+    soup = BeautifulSoup(texto, "html.parser")
+
+    # Eliminar referencias
+    for referencia in soup.find_all("ref"):
+        referencia.decompose()
+
+    # Convertir el HTML restante en texto
+    texto = soup.get_text(separator=" ", strip=True)
+
+    # Eliminar formato y espacios innecesarios
     texto = texto.replace("'''", "").replace("''", "")
 
     return re.sub(r"\s+", " ", texto).strip()
+
 
 
 def limpiar_datos(datos):
@@ -311,7 +326,12 @@ def obtener_personajes_por_lotes(titulos, tamano_lote=50):
                 pagina.get("thumbnail", {}).get("source")
             )
 
-            if datos_personaje.get("nombre"):
+            nombre = datos_personaje.get("nombre")
+
+            if (
+                nombre
+                and not re.search(r"\{\{.*?\}\}", nombre)
+            ):
                 personajes_lote.append(datos_personaje)
 
         return personajes_lote

@@ -1497,16 +1497,6 @@
         "imagen": "https://static.wikia.nocookie.net/dragonball/images/4/43/Propagaci%C3%B3n_espantosa_Cell_Jr._DBZ_Dokkan.png/revision/latest/scale-to-width-down/363?cb=20260917032025&path-prefix=es"
     },
     {
-        "nombre": "{{PAGENAME}}",
-        "raza": [
-            "Bioandroide"
-        ],
-        "genero": [
-            "{{Intersexuado}}"
-        ],
-        "imagen": "https://static.wikia.nocookie.net/dragonball/images/2/25/Arte_de_Cell_Max_en_Dokkan_Battle.png/revision/latest/scale-to-width-down/500?cb=20220819105351&path-prefix=es"
-    },
-    {
         "nombre": "Cell del Futuro Alternativo.",
         "raza": [
             "Bio-Androide (con genes de Saiyan, Humano, Namekiano y Clan de Freeza)"
@@ -2715,16 +2705,6 @@
             "Masculino"
         ],
         "imagen": "https://static.wikia.nocookie.net/dragonball/images/f/f9/250px-Fisshi2.png/revision/latest/scale-to-width-down/500?cb=20191223013806&path-prefix=es"
-    },
-    {
-        "nombre": "{{PAGENAME}}",
-        "raza": [
-            "Ceresiano"
-        ],
-        "genero": [
-            "Masculino"
-        ],
-        "imagen": "https://static.wikia.nocookie.net/dragonball/images/d/d7/Flake_contra_Leek.png/revision/latest/scale-to-width-down/500?cb=20220712160052&path-prefix=es"
     },
     {
         "nombre": "Forte",
@@ -5614,16 +5594,6 @@
         "imagen": "https://static.wikia.nocookie.net/dragonball/images/a/ab/MaquinadeRealidad.png/revision/latest?cb=20131212050805&path-prefix=es"
     },
     {
-        "nombre": "{{PAGENAME}}",
-        "raza": [
-            "Ceresiana"
-        ],
-        "genero": [
-            "Femenino"
-        ],
-        "imagen": "https://static.wikia.nocookie.net/dragonball/images/2/23/M%C3%BCesli_ante_Granolah.png/revision/latest/scale-to-width-down/500?cb=20220303194146&path-prefix=es"
-    },
-    {
         "nombre": "Nail",
         "raza": [
             "Namekiano"
@@ -6643,14 +6613,6 @@
             "Masculino"
         ],
         "imagen": "https://static.wikia.nocookie.net/dragonball/images/a/af/Psyche_Oni_Dokkan.png/revision/latest?cb=20210102012031&path-prefix=es"
-    },
-    {
-        "nombre": "{{PAGENAME}}",
-        "raza": [
-            "Pterosauria"
-        ],
-        "genero": null,
-        "imagen": "https://static.wikia.nocookie.net/dragonball/images/3/33/Dragon_Ball_EP01_Escena_28.png/revision/latest/scale-to-width-down/500?cb=20240314210836&path-prefix=es"
     },
     {
         "nombre": "Pu'er",
@@ -7876,16 +7838,6 @@
         "imagen": "https://static.wikia.nocookie.net/dragonball/images/8/8a/Son_Goku_Jr._en_Dokkan_Battle.png/revision/latest/scale-to-width-down/253?cb=20220304142208&path-prefix=es"
     },
     {
-        "nombre": "{{PAGENAME}}",
-        "raza": [
-            "Saiyano"
-        ],
-        "genero": [
-            "Masculino"
-        ],
-        "imagen": "https://static.wikia.nocookie.net/dragonball/images/2/23/Goku_Xeno_Dokkan_Battle_UM22.png/revision/latest/scale-to-width-down/325?cb=20200114205054&path-prefix=es"
-    },
-    {
         "nombre": "Son Goku del Futuro Alternativo",
         "raza": [
             "Saiyano"
@@ -8226,16 +8178,6 @@
         "imagen": "https://static.wikia.nocookie.net/dragonball/images/6/67/TaxiDriver.Ep.043.png/revision/latest/scale-to-width-down/500?cb=20130906061005&path-prefix=es"
     },
     {
-        "nombre": "{{{PAGENAME}}}",
-        "raza": [
-            "Terrícola Saiyan Namekiano Alienígena Foráneo|otros nombres = Avatar}}{{Nihongo|Tekka|テッカ}}, también conocido como el Avatar, es el mejor amigo de Pinich. Este personaje funciona como avatar del jugador a través de la historia del universo de Dragon Ball en Dragon Ball Fusions y como coprotagonista en el manga promocional."
-        ],
-        "genero": [
-            "MasculinoFemenino"
-        ],
-        "imagen": "https://static.wikia.nocookie.net/dragonball/images/9/9d/Tekka.png/revision/latest/scale-to-width-down/377?cb=20161219003623&path-prefix=es"
-    },
-    {
         "nombre": "Ten'nenman",
         "raza": [
             "Saibaiman"
@@ -8374,14 +8316,6 @@
             "Masculino"
         ],
         "imagen": "https://static.wikia.nocookie.net/dragonball/images/6/65/Tommie_0347.jpg/revision/latest/scale-to-width-down/408?cb=20130506225940&path-prefix=es"
-    },
-    {
-        "nombre": "{{{PAGENAME}}}",
-        "raza": [
-            "Humano"
-        ],
-        "genero": null,
-        "imagen": null
     },
     {
         "nombre": "Toobi",
@@ -8738,16 +8672,6 @@
         "imagen": "https://static.wikia.nocookie.net/dragonball/images/1/14/Vegeta_en_Super_Hero.png/revision/latest/scale-to-width-down/371?cb=20220119211034&path-prefix=es"
     },
     {
-        "nombre": "{{PAGENAME}}",
-        "raza": [
-            "Posiblemente: 1/16 Saiyan - 15/16 Humano."
-        ],
-        "genero": [
-            "Masculino"
-        ],
-        "imagen": "https://static.wikia.nocookie.net/dragonball/images/e/ef/Vegeta_Jr._Dokkan.png/revision/latest/scale-to-width-down/375?cb=20190605140823&path-prefix=es"
-    },
-    {
         "nombre": "Vegeta Xeno",
         "raza": [
             "Saiyano"
@@ -8844,12 +8768,6 @@
             "{{Asexuado}}"
         ],
         "imagen": "https://static.wikia.nocookie.net/dragonball/images/8/83/Biz_Artwork.png/revision/latest/scale-to-width-down/375?cb=20160730214624&path-prefix=es"
-    },
-    {
-        "nombre": "Vodka|nombre-ja = ウォッカ|nombre-ja_latino = U~okka|imagen = 200px|comentario_imagen = Vodka entusiasmado por reunir las 7 Esferas del Dragón|sexo = Masculino|edad = |transformaciones = |raza = Humano|ocupación = Gángster Mafioso|procedencia = Planeta Tierra|familia = Tao Pai Pai (Guardaespalda) Pamputt (Antiguo Guardaespalda)|saga = {{DB}}{{DBZ}}|Primera aparición = Anime: Episodio 92}}",
-        "raza": null,
-        "genero": null,
-        "imagen": "https://static.wikia.nocookie.net/dragonball/images/0/0b/Vodka.png/revision/latest?cb=20110806205613&path-prefix=es"
     },
     {
         "nombre": "Vomi",
